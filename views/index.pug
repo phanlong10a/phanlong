@@ -1,0 +1,9 @@
+extends ./layout/common.pug
+block content
+	a(href='./users') list users
+	div.d-flex
+		form(method='POST')
+			div
+			input(name='name' type='text' class='form-control')
+			div
+			button.btn.btn-primary confirm
